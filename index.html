@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,16 +17,16 @@
             <div class="bar-top">
                 <div class="search-bar">
                     <button class="search">
-                        <img src="../assets/magnify.svg" alt="search-button">
+                        <img src="assets/magnify.svg" alt="search-button">
                     </button>
                     <input type="text" placeholder="">
                 </div>
                 <div class="profile-panel">
                     <button class="notif-bell">
-                        <img src="../assets/bell-ring.svg" alt="">
+                        <img src="assets/bell-ring.svg" alt="">
                     </button>
                     <button class="profile-img">
-                        <img src="../assets/profile-img.svg" alt="">
+                        <img src="assets/profile-img.svg" alt="">
                     </button>
                     <p class="profile-name-head">Morgan Oakley</p>
                 </div>
@@ -31,11 +34,11 @@
             <div class="bar-bottom">
                 <div class="profile-info">
                     <button class="profile-info-img">
-                        <img src="../assets/profile-img.svg" alt="">
+                        <img src="assets/profile-img.svg" alt="">
                     </button>
                     <div class="info-text">
-                    <p class="greetings">Hi there,</p>
-                    <p class="user-name">Morgan Oakley (@morgan)</p>
+                        <p class="greetings">Hi there,</p>
+                        <p class="user-name">Morgan Oakley (@morgan)</p>
                     </div>
                 </div>
                 <div class="header-buttons">
@@ -48,100 +51,209 @@
 
         <div class="sidebar">
             <div class="logo">
-                <img src="../assets/icon.svg" alt="">
+                <img src="assets/icon.svg" alt="">
                 Dashboard
             </div>
             <div class="nav-top">
                 <ul class="first">
-                    <li> <img src="../assets/home.svg" alt="">Home</li>
-                    <li> <img src="../assets/profile.svg" alt="">Profile</li>
-                    <li> <img src="../assets/messages.svg" alt="">Messages</li>
-                    <li> <img src="../assets/history.svg" alt=""><Html:5>History</Html:5></li>
-                    <li> <img src="../assets/tasks.svg" alt="">Tasks</li>
-                    <li> <img src="../assets/community.svg" alt="">Communities</li>
+                    <li> <img src="assets/home.svg" alt="">Home</li>
+                    <li> <img src="assets/profile.svg" alt="">Profile</li>
+                    <li> <img src="assets/messages.svg" alt="">Messages</li>
+                    <li> <img src="assets/history.svg" alt="">
+                        <Html:5>History</Html:5>
+                    </li>
+                    <li> <img src="assets/tasks.svg" alt="">Tasks</li>
+                    <li> <img src="assets/community.svg" alt="">Communities</li>
                 </ul>
             </div>
             <div class="nav-bottom">
                 <ul>
-                    <li> <img src="../assets/settings.svg" alt="">Settings</li>
-                    <li> <img src="../assets/support.svg" alt="">Support</li>
-                    <li> <img src="../assets/privacy.svg" alt="">Privacy</li>
+                    <li> <img src="assets/settings.svg" alt="">Settings</li>
+                    <li> <img src="assets/support.svg" alt="">Support</li>
+                    <li> <img src="assets/privacy.svg" alt="">Privacy</li>
                 </ul>
             </div>
         </div>
-
-        <div class="main">
-            <div class="dash-board">
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
-                <div class="card">
-                    <p class="title">Article Title</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                </div>
+        <div class="main-section">
+        <main>
+            <div class="main">
+                <div class="dash-heading">Your Projects</div>
+                <article>
+                    <div class="dash-board">
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <p class="title">Article Title</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt
+                                    ut
+                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                            </div>
+                            <div class="icons">
+                                <button class="project-ico">
+                                    <img src="assets/fav.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/seen.svg" alt="">
+                                </button>
+                                <button class="project-ico">
+                                    <img src="assets/fork.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
-
+            
+        </main>
+        <div class="right-panel">
+            <p class="notif-heading">Announcements</p>
             <div class="notif-card">
                 <!-- div.notification*3>p.notif-head+p.notif-text -->
-                <div class="notification">
+                <div class="notification-1">
                     <p class="notif-head">heading 1</p>
-                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae illo
+                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae
+                        illo
                         impedit maiores sit reiciendis.</p>
                 </div>
-                <div class="notification">
+                <div class="notification-2">
                     <p class="notif-head">heading 2</p>
-                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae illo
+                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae
+                        illo
                         impedit maiores sit reiciendis.</p>
                 </div>
                 <div class="notification">
                     <p class="notif-head">heading 3</p>
-                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae illo
+                    <p class="notif-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae
+                        illo
                         impedit maiores sit reiciendis.</p>
                 </div>
             </div>
             <!-- div.trending>div.trend-item*3>img.trend-img+p.trend-head+p.trend-subhead -->
+            <p class="notif-heading">Trending</p>
             <div class="trending">
+                <img src="assets/profile-img.svg" alt="" class="trend-img">
                 <div class="trend-item">
-                    <img src="" alt="" class="trend-img">
                     <p class="trend-head">@head 1</p>
                     <p class="trend-subhead">subhead 1</p>
                 </div>
+                <img src="assets/profile-img.svg" alt="" class="trend-img">
                 <div class="trend-item">
-                    <img src="" alt="" class="trend-img">
                     <p class="trend-head">@head 2</p>
                     <p class="trend-subhead">subhead 2</p>
                 </div>
+                <img src="assets/profile-img.svg" alt="" class="trend-img">
                 <div class="trend-item">
-                    <img src="" alt="" class="trend-img">
                     <p class="trend-head">@head 3</p>
                     <p class="trend-subhead">subhead 3</p>
                 </div>
+                <img src="assets/profile-img.svg" alt="" class="trend-img">
+                <div class="trend-item">
+                    <p class="trend-head">@head 4</p>
+                    <p class="trend-subhead">subhead 4</p>
+                </div>
             </div>
         </div>
-
+    </div>
     </div>
 </body>
 
